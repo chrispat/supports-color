@@ -35,4 +35,5 @@ jobs:
       env:
         CI: true
       shell: bash    
+      if: always()
     
